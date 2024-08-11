@@ -8,7 +8,7 @@ export const fetchWeather = async (city: string) => {
     params: {
       q: city,
       appid: API_KEY,
-      units: "metric", // You can change this to 'imperial' for Fahrenheit
+      units: "metric",
     },
   });
   return response.data;
